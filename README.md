@@ -19,4 +19,4 @@ Timing based animation with GSAP<br>
 UX creation from minimal design inputs<br>
 Vision:<br>
 This mini project was a step to not just build, but to create feeling in the browser using code even if it's small, it's meaningful.
-🔗 Let’s Connect: https://www.linkedin.com/in/codecrusherakash
+<br> Let’s Connect: https://www.linkedin.com/in/codecrusherakash
