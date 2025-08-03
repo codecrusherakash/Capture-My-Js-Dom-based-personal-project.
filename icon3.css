@@ -1,0 +1,138 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    padding: 4em;
+    color: white;
+}
+.head h1{
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background-image: linear-gradient(to right top,indigo,purple,blue,darkslategray,lightskyblue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.pros{
+    height: 70%;
+    width: 100%;
+    display: flex;
+}
+.pros h6{
+    margin-left: 2em;
+}
+.pro1{
+    height: 100%;
+    width: 23%;
+    margin-top: 2em;
+    border-radius: 2em;
+    margin-left: 2em;
+    padding: 1em;
+}
+.pro1 img{
+    height: 17em;
+    width: 14em;
+    border-radius: 2em;
+    cursor: pointer;
+}
+.pro2{
+    height: 100%;
+    width: 23%;
+    margin-top: 2em;
+    border-radius: 2em;
+    margin-left: 2em;
+    padding: 1em;
+}
+.pro2 img{
+    height: 17em;
+    width: 14em;
+    border-radius: 2em;
+    cursor: pointer;
+}
+.pro3{
+    height: 100%;
+    width: 23%;
+    margin-top: 2em;
+    border-radius: 2em;
+    margin-left: 2em;
+    padding: 1em;
+}
+.pro3 img{
+    height: 17em;
+    width: 14em;
+    border-radius: 2em;
+    cursor: pointer;
+}
+.pro4{
+    height: 100%;
+    width: 23%;
+    margin-top: 2em;
+    border-radius: 2em;
+    margin-left: 2em;
+    padding: 1em;
+}
+.pro4 img{
+    height: 17em;
+    width: 14em;
+    border-radius: 2em;
+    cursor: pointer;
+}
+.pro1 i{
+    position: absolute;
+    top: 55%;
+    left: 17.5%;
+    transform: translate(-50%,-50%) scale(0);
+    font-size: 5em;
+    opacity: 0;
+    background-image: linear-gradient(to right top,indigo,purple,blue,darkslategray,lightskyblue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.pro2 i{
+    position: absolute;
+    top: 55%;
+    left: 40.5%;
+    transform: translate(-50%,-50%) scale(0);
+    font-size: 5em;
+    opacity: 0;
+    background-image: linear-gradient(to right top,indigo,purple,blue,darkslategray,lightskyblue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.pro3 i{
+    position: absolute;
+    top: 55%;
+    right:8%;
+    transform: translate(-50%,-50%)  scale(0);
+    font-size: 5em;
+    opacity: 0;
+    background-image: linear-gradient(to right top,indigo,purple,blue,darkslategray,lightskyblue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.pro4 i{
+    position: absolute;
+    top: 55%;
+    right: 30.5%;
+    transform: translate(-50%,-50%)scale(0);
+    font-size: 5em;
+    opacity: 0;
+    background-image: linear-gradient(to right top,indigo,purple,blue,darkslategray,lightskyblue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}

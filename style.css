@@ -1,0 +1,310 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction:column ;
+    background-color:black;
+}
+.p1{
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    width: 25%;
+    padding: 1% 2%;
+    display: none;
+    border-radius: 1em;
+    box-shadow: darkslategray 1em 1em 1em;
+    background-color:black;
+    cursor: none;
+}
+.cursor1{
+    height: 20px;
+    width: 20px;
+    background-image:linear-gradient(to right top,indigo,purple,blue,darkslategray,lightskyblue);
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%,50%) scale(1);
+    transition: all;
+}
+.icona{
+    display: flex;
+    align-items: center;
+}
+.icona h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.icona i{
+    font-size: 3em;
+    background-image: linear-gradient(to right top,indigo,purple,blue,darkslategray,lightskyblue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.icon1 i{
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+}
+.icon2 i{
+    font-size: 1.5em;
+    color:white;
+    cursor: pointer;
+}
+.icon3 i{
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+}
+.icon4 i{
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+}
+
+.icon5 i{
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+}
+
+.icon6 i{
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+}
+
+.iconb i{
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+}
+.icon1{
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+.icon2{
+    margin-top: 5em;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+.icon3{
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+.icon4{
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+.icon5{
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.icon6{
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+.iconb{
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    margin-top: 7em;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.p2{
+    height: 100%;
+    width: 100%;
+    padding: 1% 1%;
+    cursor: none;
+}
+.cursor2{
+    height: 20px;
+    width: 20px;
+    background-image:linear-gradient(to right top,indigo,purple,blue,darkslategray,lightskyblue);
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%,50%) scale(1);
+    transition: all;
+}
+.p2 .logo{
+    display: flex;
+    font-size: 1em;
+    align-items: center;
+}
+.logo h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.logo i{
+    font-size: 3em;
+    background-image: linear-gradient(to right top,indigo,purple,blue,darkslategray,lightskyblue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.set{
+    margin-top: 0em;
+    display: flex;
+    margin-left: 63.5em;
+}
+.set i{
+    cursor: pointer;
+    font-size: 2em;
+    color: white;
+}
+.content{
+    height: 80%;
+    width: 100%;
+    margin:1em 2em;
+    display: flex;
+}
+.head h1{
+    margin: 1em 5em;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    white-space: nowrap;
+    color: white;
+}
+span{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right top,indigo,purple,blue,darkslategray,lightskyblue);
+    -webkit-background-clip: text;
+    background-clip:text;
+    color: transparent;
+}
+.box1{
+    background: linear-gradient(to right top,indigo,purple,blue,darkslategray,lightskyblue);
+    height: 70%;
+    width: 15.3%;
+    margin: 2em 1.5em;
+    border-radius: 2em;
+}
+.box1 h1{
+    color: white;
+}
+.box2{
+    background: linear-gradient(to right top,indigo,purple,blue,darkslategray,lightskyblue);
+    height: 70%;
+    width: 15.3%;
+    margin: 2em 1.5em;
+    border-radius: 2em;
+}
+.box2 h1{
+    color: white;
+}
+.box3{
+    background: linear-gradient(to right top,indigo,purple,blue,darkslategray,lightskyblue);
+    height: 70%;
+    width: 15.3%;
+    margin: 2em 1.5em;
+    border-radius: 2em;
+}
+.box3 h1{
+    color: white;
+}
+.box4{
+    background: linear-gradient(to right top,indigo,purple,blue,darkslategray,lightskyblue);
+    height: 70%;
+    width: 15.3%;
+    margin: 2em 1.5em;
+    border-radius: 2em;
+}
+.box4 h1{
+    color: white;
+}
+.box5{
+    background: linear-gradient(to right top,indigo,purple,blue,darkslategray,lightskyblue);
+    height: 70%;
+    width: 15.3%;
+    margin: 2em 1.5em;
+    border-radius: 2em;
+}
+.box5 h1{
+    color: white;
+}
+img{
+    padding: 1em;
+}
+.img1{
+    height:15em;
+    width: 12em;
+    border-radius: 2em;
+
+}
+.img2{
+    height:15em;
+    width: 12em;
+    border-radius: 2em;
+
+}
+.img3{
+    height:15em;
+    width: 12em;
+    border-radius: 2em;
+
+}
+.img4{
+    height:15em;
+    width: 12em;
+    border-radius: 2em;
+
+}
+.img5{
+    height:15em;
+    width: 12em;
+    border-radius: 2em;
+
+}
+button{
+    height: 1.5em;
+    width: 8em;
+    margin-left: 1.4em;
+    border-radius: 0.5em;
+    font-size: large;
+    cursor: pointer;
+    border: solid white 2px;
+    background-color: #0095F6;
+    color: white;
+}
+button:hover{
+    background-color: gray;
+}
+button:active{
+    scale:0.9;
+}
+.content h1{
+    font-size: 0.7em;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    padding: 2em;
+    display: flex;
+    gap: 5em;
+    color: white;
+}
+.icon{
+    height: 100%;
+    width: 20%;
+    font-size: 3em;
+}
+.head{
+    height: 100%;
+    width:80% ;
+    border-radius: 2em;
+    padding: 2em;
+    background-image: linear-gradient(to right top,indigo,purple,blue,darkslategray,lightskyblue);
+}
+.head h1{
+    font-size: 4em;
+}
+.head .msg{
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    gap:15px
+}

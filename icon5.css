@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+        background-image:  linear-gradient(to right top,indigo,purple,blue,darkslategrey,lightskyblue);
+}
+.c1{
+    height: 20%;
+    width: 100%;
+    font-size: 2em;
+    padding: 0.5em;
+}
+.c2{
+    height: 20%;
+    width: 100%;
+    padding: 2em;
+    font-size: 1em;
+    border: solid white 2px;
+    border-radius: 2em;
+    transition: all linear 0.3s;
+    background-color: black;
+}
+.c3{
+    height: 20%;
+    width: 100%;
+    padding: 2em;
+    font-size: 1em;
+    border: solid white 2px;
+    border-radius: 2em;
+    transition: all linear 0.3s;
+    background-color: black;
+}
+.c4{
+    height: 20%;
+    width: 100%;
+    padding: 2em;
+    font-size: 1em;
+    border: solid white 2px;
+    border-radius: 2em;
+    transition: all linear 0.3s;
+    background-color: black;
+}
+.c5{
+    height: 20%;
+    width: 100%;
+    padding: 2em;
+    font-size: 1em;
+    border: solid white 2px;
+    border-radius: 2em;
+    transition: all linear 0.3s;
+    background-color: black;
+}
+.c2 img{
+    height: 15%;
+    width: 5%;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0;
+}
+.c3 img{
+    height: 15%;
+    width: 5%;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0;
+}
+.c4 img{
+    height: 15%;
+    width: 5%;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0;
+}
+.c5 img{
+    height: 15%;
+    width: 5%;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0;
+}
+span{
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+h1{
+    position: absolute;
+    z-index: 1;
+}

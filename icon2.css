@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.fulld{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-size:cover;
+    background-position:center;
+    display: none;
+}
+.story{
+    padding: 1.5em;
+    height: 23%;
+    width: 100%;
+    border-bottom:solid white 2px ;
+    background-image: linear-gradient(to right ,black,black,purple,blue,darkslategrey,lightskyblue,black,black);
+    white-space: nowrap;
+    gap: 2em;
+}
+.s1{
+    height: 100px;
+    width: 100px;
+    border:solid darkmagenta 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 1em;
+}
+.s2{
+    height: 100px;
+    width: 100px;
+    border:solid darkmagenta 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+.s3{
+    height: 100px;
+    width: 100px;
+    border:solid darkmagenta 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+.s4{
+    height: 100px;
+    width: 100px;
+    border:solid darkmagenta 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+.s5{
+    height: 100px;
+    width: 100px;
+    border:solid darkmagenta 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+.s6{
+    height: 100px;
+    width: 100px;
+    border:solid darkmagenta 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+.s7{
+    height: 100px;
+    width: 100px;
+    border:solid darkmagenta 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+.s8{
+    height: 100px;
+    width: 100px;
+    border:solid darkmagenta 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+.s9{
+    height: 100px;
+    width: 100px;
+    border:solid darkmagenta 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+.s10{
+    height: 100px;
+    width: 100px;
+    border:solid darkmagenta 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+.story img{
+    height: 100px;
+    width: 100px;
+    object-fit:cover;
+    object-position: top;
+    color: aliceblue;
+}
+.post{
+    height: 77%;
+    width: 100%;
+    color: white;
+    white-space: nowrap;
+    background-image: linear-gradient(to right top,black,black,purple,blue,darkslategrey,lightskyblue,black,black);
+}
+.post img{
+    margin: 3em 30em;
+    height: 60%;
+    width: 18%;
+}
+.details{
+    padding: 1em 2em;
+    height:19%;
+    width: 100%;
+}

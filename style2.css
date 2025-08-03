@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    padding: 0.8em;
+    cursor: none;
+    background-color: black;
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+.icon h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.icon i{
+    font-size: 3em;
+    background-image: linear-gradient(to right top,indigo,purple,blue,darkslategray,lightskyblue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.signup{
+    height: 85%;
+    width: 40%;
+    margin: 1% 30%;
+    background: linear-gradient(to right top,indigo,purple,blue,darkslategray,lightblue);
+    color: white;
+    padding: 5em 8em 2em 8em;
+    border-radius: 20%;
+}
+.signup h1{
+    margin-left: 2.2em;
+}
+.cursor{
+    background-image: linear-gradient(to right top,indigo,purple,blue,darkslategray,lightskyblue);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%,50%) scale(1);
+    border: solid black 2px;
+}
+form{
+    height: 80%;
+    width:100%;
+}
+input{
+    cursor: none;
+    width: 17em;
+    background-color: black;
+    color: white;
+    border-radius: 2em;
+    padding: 1em 2em;
+    margin-top: 1em;
+    margin-left: 1em;
+    border: solid black 2px;
+    text-transform: capitalize;
+}
+button{
+    height: 2em;
+    width: 10em;
+    border-radius: 2em;
+    margin-top: 1em;
+    margin-left: 4.5em;
+    border: solid black 2px;
+    cursor: none;
+    background-color: black;
+    color: white;
+    font-weight:bolder;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 2px 2px white;
+}
+button:hover{
+    cursor: none;
+    background-color: green;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:active{
+    scale: 0.9;
+}
